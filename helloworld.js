@@ -1,4 +1,4 @@
 // code your `hello` function here!
-function hello() {
+export function hello() {
   console.log("Hello World");
 }
