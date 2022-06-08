@@ -1,4 +1,5 @@
 // code your `hello` function here!
-modules.exports = function hello() {
+function hello() {
   console.log("Hello World");
 }
+export {hello};
