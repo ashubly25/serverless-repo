@@ -1,6 +1,7 @@
 // code your `hello` function here!
-function hello() {
+modules.exports = function hello() {
   console.log("Hello World");
 }
 
-export default hello;
+const name = require('./helloworld.js');
+name();
