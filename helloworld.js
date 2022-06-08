@@ -1,5 +1,6 @@
 // code your `hello` function here!
-export default function hello() {
+function hello() {
   console.log("Hello World");
 }
 
+export default hello;
