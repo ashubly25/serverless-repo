@@ -1,4 +1,5 @@
 // code your `hello` function here!
-export function hello() {
-  console.log("Hello World");
+const hello = () => "Hello World";
+export { 
+  hello
 }
